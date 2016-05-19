@@ -1,0 +1,433 @@
+2016-05-18 15:48:10,036 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.7 (https://github.com/Red5)
+2016-05-18 15:48:10,269 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2ae278: startup date [Wed May 18 15:48:10 CST 2016]; root of context hierarchy
+2016-05-18 15:48:10,335 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2016-05-18 15:48:10,699 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2016-05-18 15:48:10,850 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2016-05-18 15:48:10,904 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@2ae278: startup date [Wed May 18 15:48:10 CST 2016]; root of context hierarchy
+2016-05-18 15:48:10,905 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2016-05-18 15:48:10,907 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Wed May 18 15:48:10 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@2ae278
+2016-05-18 15:48:10,909 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2016-05-18 15:48:11,035 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2016-05-18 15:48:11,108 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-05-18 15:48:11,136 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-05-18 15:48:11,137 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016-05-18 15:48:11,150 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016-05-18 15:48:11,151 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-18 15:48:11,152 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : 'C:/red5-server/conf/quartz.properties'
+2016-05-18 15:48:11,153 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016-05-18 15:48:11,154 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2016-05-18 15:48:11,192 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
+2016-05-18 15:48:11,536 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@1e463d0
+2016-05-18 15:48:12,158 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-05-18 15:48:12,162 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
+2016-05-18 15:48:12,165 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2016-05-18 15:48:12,166 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2016-05-18 15:48:12,202 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
+2016-05-18 15:48:12,204 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2016-05-18 15:48:12,386 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@2ae278: startup date [Wed May 18 15:48:10 CST 2016]; root of context hierarchy
+2016-05-18 15:48:12,388 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2016-05-18 15:48:12,389 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Wed May 18 15:48:12 CST 2016]; parent: ApplicationContext 'red5.common'
+2016-05-18 15:48:12,391 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2016-05-18 15:48:12,474 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2016-05-18 15:48:12,518 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [135.252.43.161:1935]
+2016-05-18 15:48:12,519 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+Acceptor style: default I/O threads: 16
+TCP no-delay: true keep-alive: false
+2016-05-18 15:48:12,651 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2016-05-18 15:48:12,652 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2016-05-18 15:48:12,712 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2016-05-18 15:48:12,716 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => C:/red5-server/webapps/red5-default.xml
+2016-05-18 15:48:12,718 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef: startup date [Wed May 18 15:48:12 CST 2016]; parent: ApplicationContext 'red5.common'
+2016-05-18 15:48:12,721 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\red5-server\webapps\red5-default.xml]
+2016-05-18 15:48:12,847 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:48:12,851 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
+2016-05-18 15:48:12,856 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
+2016-05-18 15:48:12,858 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
+2016-05-18 15:48:13,006 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading Tomcat
+2016-05-18 15:48:13,006 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: C:/red5-server
+2016-05-18 15:48:13,007 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: C:/red5-server/conf
+2016-05-18 15:48:13,056 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: C:/red5-server/webapps
+2016-05-18 15:48:13,283 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2016-05-18 15:48:13,526 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_05\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jdk1.7.0_05\bin;C:\Program Files (x86)\Java\jdk1.7.0_05\jre\bin;D:\mingw\msys\1.0\bin;C:\Users\lihuaf\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\lihuaf\AppData\Local\Programs\Python\Python35-32\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;.
+2016-05-18 15:48:13,575 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-135.252.43.161-8080"]
+2016-05-18 15:48:13,633 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2016-05-18 15:48:13,657 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2016-05-18 15:48:13,658 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-18 15:48:13,946 [135.252.43.161-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2016-05-18 15:48:23,817 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[135.252.43.161].[/] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:48:31,952 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[.2.43.161].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:48:39,985 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[.252.43.161].[/chat] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:48:47,645 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[135.252.43.161].[/vod] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:48:56,577 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[.2.4.161].[/installer] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:49:04,499 [135.252.43.161-startStop-1] INFO  o.a.c.c.C.[.[.252.43.161].[/live] - No Spring WebApplicationInitializer types detected on classpath
+2016-05-18 15:49:04,571 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-135.252.43.161-8080"]
+2016-05-18 15:49:04,588 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: C:\red5-server\webapps\root\
+2016-05-18 15:49:04,594 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: C:\red5-server\webapps\oflaDemo\
+2016-05-18 15:49:04,597 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: C:\red5-server\webapps\chat\
+2016-05-18 15:49:04,601 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: C:\red5-server\webapps\vod\
+2016-05-18 15:49:04,604 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /installer path: C:\red5-server\webapps\installer\
+2016-05-18 15:49:04,605 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: C:\red5-server\webapps\live\
+2016-05-18 15:49:04,605 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2016-05-18 15:49:04,608 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2016-05-18 15:49:04,615 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:04 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:04,630 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2016-05-18 15:49:04,632 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:04,676 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket (ws) will be bound to [135.252.43.161:8081]
+2016-05-18 15:49:04,695 [main] ERROR o.r.n.websocket.WebSocketTransport - Exception occurred during resolve / bind
+java.io.IOException: Error while binding on /135.252.43.161:8081
+original message : Address already in use: bind
+	at org.apache.mina.transport.socket.nio.NioSocketAcceptor.open(NioSocketAcceptor.java:238)
+	at org.apache.mina.transport.socket.nio.NioSocketAcceptor.open(NioSocketAcceptor.java:51)
+	at org.apache.mina.core.polling.AbstractPollingIoAcceptor.registerHandles(AbstractPollingIoAcceptor.java:585)
+	at org.apache.mina.core.polling.AbstractPollingIoAcceptor.access$400(AbstractPollingIoAcceptor.java:71)
+	at org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:459)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2016-05-18 15:49:04,695 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2016-05-18 15:49:04,742 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:04,753 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:04,850 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map[[empty]]]
+2016-05-18 15:49:04,860 [pool-5-thread-1] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2016-05-18 15:49:04,863 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: 135.252.43.161 context: null
+2016-05-18 15:49:04,863 [pool-5-thread-1] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2016-05-18 15:49:04,864 [pool-5-thread-1] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1463557744755, depth=1, enabled=true, running=false]
+2016-05-18 15:49:04,864 [pool-5-thread-1] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2016-05-18 15:49:04,864 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Webscope already registered; remove the 'init-method' from your 'web.scope' bean to prevent this message in the future.
+2016-05-18 15:49:04,874 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:04 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:04,880 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:04,964 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:04,970 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:04,974 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map['135.252.43.161/' -> 'default']]
+2016-05-18 15:49:04,978 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
+2016-05-18 15:49:04,978 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: 135.252.43.161 context: oflaDemo
+2016-05-18 15:49:04,979 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: oflaDemo
+2016-05-18 15:49:04,980 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: localhost:8088 context: oflaDemo
+2016-05-18 15:49:04,980 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: 127.0.0.1:8088 context: oflaDemo
+2016-05-18 15:49:04,980 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: 135.252.43.161:8088 context: oflaDemo
+2016-05-18 15:49:05,001 [pool-5-thread-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appStart
+2016-05-18 15:49:05,035 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Webscope already registered; remove the 'init-method' from your 'web.scope' bean to prevent this message in the future.
+2016-05-18 15:49:05,049 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:05 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:05,055 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:05,164 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:05,177 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:05,206 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map['135.252.43.161/' -> 'default', '127.0.0.1:8088/oflaDemo' -> 'default', '135.252.43.161:8088/oflaDemo' -> 'default', '135.252.43.161/oflaDemo' -> 'default', '/oflaDemo' -> 'default', 'localhost:8088/oflaDemo' -> 'default', 'localhost/oflaDemo' -> 'default']]
+2016-05-18 15:49:05,208 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2016-05-18 15:49:05,296 [pool-5-thread-1] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1463557745178, depth=1, enabled=true, running=false]
+2016-05-18 15:49:05,297 [pool-5-thread-1] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=default, listeners=1, connections=0]
+2016-05-18 15:49:05,298 [pool-5-thread-1] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2016-05-18 15:49:05,300 [pool-5-thread-1] INFO  o.red5.net.websocket.WebSocketScope - WebSocket app added: chat
+2016-05-18 15:49:05,326 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:05 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:05,339 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:05,419 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:05,428 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:05,430 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map['/chat' -> 'default', '135.252.43.161/' -> 'default', '127.0.0.1:8088/oflaDemo' -> 'default', '135.252.43.161:8088/oflaDemo' -> 'default', '135.252.43.161/oflaDemo' -> 'default', '/oflaDemo' -> 'default', 'localhost:8088/oflaDemo' -> 'default', 'localhost/oflaDemo' -> 'default']]
+2016-05-18 15:49:05,437 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2016-05-18 15:49:05,457 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:05 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:05,467 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:05,553 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:05,568 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:05,570 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map['/chat' -> 'default', '/vod' -> 'default', '135.252.43.161/' -> 'default', '127.0.0.1:8088/oflaDemo' -> 'default', '135.252.43.161:8088/oflaDemo' -> 'default', '135.252.43.161/oflaDemo' -> 'default', '/oflaDemo' -> 'default', 'localhost:8088/oflaDemo' -> 'default', 'localhost/oflaDemo' -> 'default']]
+2016-05-18 15:49:05,573 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2016-05-18 15:49:05,574 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2016-05-18 15:49:05,581 [pool-5-thread-1] INFO  org.red5.server.service.Installer - Installer service created
+2016-05-18 15:49:05,610 [pool-5-thread-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed May 18 15:49:05 CST 2016]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@5c9cef
+2016-05-18 15:49:05,615 [pool-5-thread-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2016-05-18 15:49:05,695 [pool-5-thread-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2016-05-18 15:49:05,701 [pool-5-thread-1] INFO  org.red5.server.Context - Setting parent bean factory as core
+2016-05-18 15:49:05,703 [pool-5-thread-1] INFO  org.red5.server.scope.WebScope - Set server [Server@a73248map['/chat' -> 'default', '/vod' -> 'default', '135.252.43.161/' -> 'default', '127.0.0.1:8088/oflaDemo' -> 'default', '135.252.43.161:8088/oflaDemo' -> 'default', 'localhost:5080/installer' -> 'default', 'localhost/installer' -> 'default', '135.252.43.161/oflaDemo' -> 'default', '/oflaDemo' -> 'default', 'localhost:8088/oflaDemo' -> 'default', 'localhost/oflaDemo' -> 'default']]
+2016-05-18 15:49:05,705 [pool-5-thread-1] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2016-05-18 15:49:12,802 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 15:49:28,862 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:135.252.43.161 c-client-id:0
+2016-05-18 15:49:28,863 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2016-05-18 15:49:28,982 [Red5_Scheduler_Worker-23] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:61470a24-da25-4466-9e2c-2668ac0dc293
+2016-05-18 15:49:28,997 [Red5_Scheduler_Worker-24] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:61470a24-da25-4466-9e2c-2668ac0dc293 x-name:stream1463554241052
+2016-05-18 15:50:08,546 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:135.252.43.161 c-client-id:0
+2016-05-18 15:50:08,546 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2016-05-18 15:50:08,549 [NioProcessor-2] WARN  o.r.s.net.rtmp.RTMPMinaIoHandler - Force close - session: 1
+2016-05-18 15:50:08,549 [NioProcessor-2] WARN  o.a.m.c.f.DefaultIoFilterChain - Unexpected exception from exceptionCaught handler.
+java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+	at org.apache.mina.core.session.DefaultIoSessionDataStructureFactory$DefaultIoSessionAttributeMap.getAttributeKeys(DefaultIoSessionDataStructureFactory.java:165)
+	at org.apache.mina.core.session.AbstractIoSession.getAttributeKeys(AbstractIoSession.java:654)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:244)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:238)
+	at org.apache.mina.core.future.DefaultIoFuture.notifyListener(DefaultIoFuture.java:411)
+	at org.apache.mina.core.future.DefaultIoFuture.addListener(DefaultIoFuture.java:345)
+	at org.apache.mina.core.future.DefaultCloseFuture.addListener(DefaultCloseFuture.java:78)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.cleanSession(RTMPMinaIoHandler.java:265)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.forceClose(RTMPMinaIoHandler.java:208)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.exceptionCaught(RTMPMinaIoHandler.java:191)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:824)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:933)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:580)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:508)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:359)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:497)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:245)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:579)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:536)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1105)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2016-05-18 15:50:08,556 [Red5_Scheduler_Worker-14] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:135.252.43.161 cs-bytes:3759 sc-bytes:3954 x-sname:61470a24-da25-4466-9e2c-2668ac0dc293
+2016-05-18 15:50:10,251 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:135.252.43.161 c-client-id:1
+2016-05-18 15:50:10,251 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2016-05-18 15:50:10,294 [Red5_Scheduler_Worker-17] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:894cd77a-57c8-4733-917b-ee11fadfdde2
+2016-05-18 15:50:10,736 [Red5_Scheduler_Worker-19] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:894cd77a-57c8-4733-917b-ee11fadfdde2 x-name:hobbit_vp6
+2016-05-18 15:50:29,488 [Red5_Scheduler_Worker-15] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:pause c-ip:135.252.43.161 x-sname:894cd77a-57c8-4733-917b-ee11fadfdde2
+2016-05-18 15:51:01,114 [NioProcessor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:135.252.43.161 c-client-id:1
+2016-05-18 15:51:01,114 [NioProcessor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2016-05-18 15:51:01,115 [NioProcessor-3] WARN  o.r.s.net.rtmp.RTMPMinaIoHandler - Force close - session: 2
+2016-05-18 15:51:01,115 [NioProcessor-3] WARN  o.a.m.c.f.DefaultIoFilterChain - Unexpected exception from exceptionCaught handler.
+java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+	at org.apache.mina.core.session.DefaultIoSessionDataStructureFactory$DefaultIoSessionAttributeMap.getAttributeKeys(DefaultIoSessionDataStructureFactory.java:165)
+	at org.apache.mina.core.session.AbstractIoSession.getAttributeKeys(AbstractIoSession.java:654)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:244)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:238)
+	at org.apache.mina.core.future.DefaultIoFuture.notifyListener(DefaultIoFuture.java:411)
+	at org.apache.mina.core.future.DefaultIoFuture.addListener(DefaultIoFuture.java:345)
+	at org.apache.mina.core.future.DefaultCloseFuture.addListener(DefaultCloseFuture.java:78)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.cleanSession(RTMPMinaIoHandler.java:265)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.forceClose(RTMPMinaIoHandler.java:208)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.exceptionCaught(RTMPMinaIoHandler.java:191)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:824)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:933)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:580)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:508)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:359)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:497)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:245)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:579)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:536)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1105)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2016-05-18 15:51:01,124 [Red5_Scheduler_Worker-31] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:135.252.43.161 cs-bytes:3820 sc-bytes:1265702 x-sname:894cd77a-57c8-4733-917b-ee11fadfdde2
+2016-05-18 15:57:33,115 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:135.252.43.161 c-client-id:2
+2016-05-18 15:57:33,115 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2016-05-18 15:57:33,159 [Red5_Scheduler_Worker-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:b304e53a-889e-4e7d-900a-e018771ab4b9
+2016-05-18 15:57:33,163 [Red5_Scheduler_Worker-9] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:b304e53a-889e-4e7d-900a-e018771ab4b9 x-name:hobbit_vp6
+2016-05-18 15:57:40,518 [Red5_Scheduler_Worker-11] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:pause c-ip:135.252.43.161 x-sname:b304e53a-889e-4e7d-900a-e018771ab4b9
+2016-05-18 15:59:12,640 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:09:12,619 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:19:12,630 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:29:12,669 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:37:16,123 [NioProcessor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:135.252.43.161 c-client-id:2
+2016-05-18 16:37:16,125 [NioProcessor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2016-05-18 16:37:16,126 [NioProcessor-4] WARN  o.r.s.net.rtmp.RTMPMinaIoHandler - Force close - session: 3
+2016-05-18 16:37:16,127 [NioProcessor-4] WARN  o.a.m.c.f.DefaultIoFilterChain - Unexpected exception from exceptionCaught handler.
+java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+	at org.apache.mina.core.session.DefaultIoSessionDataStructureFactory$DefaultIoSessionAttributeMap.getAttributeKeys(DefaultIoSessionDataStructureFactory.java:165)
+	at org.apache.mina.core.session.AbstractIoSession.getAttributeKeys(AbstractIoSession.java:654)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:244)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler$1.operationComplete(RTMPMinaIoHandler.java:238)
+	at org.apache.mina.core.future.DefaultIoFuture.notifyListener(DefaultIoFuture.java:411)
+	at org.apache.mina.core.future.DefaultIoFuture.addListener(DefaultIoFuture.java:345)
+	at org.apache.mina.core.future.DefaultCloseFuture.addListener(DefaultCloseFuture.java:78)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.cleanSession(RTMPMinaIoHandler.java:265)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.forceClose(RTMPMinaIoHandler.java:208)
+	at org.red5.server.net.rtmp.RTMPMinaIoHandler.exceptionCaught(RTMPMinaIoHandler.java:191)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:824)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:933)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:590)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:580)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:508)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:359)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:923)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:504)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:497)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:245)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:579)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:536)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1105)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2016-05-18 16:37:16,133 [Red5_Scheduler_Worker-20] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:135.252.43.161 cs-bytes:11982 sc-bytes:520797 x-sname:b304e53a-889e-4e7d-900a-e018771ab4b9
+2016-05-18 16:39:12,736 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:49:12,733 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 16:59:12,772 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:09:12,811 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:19:12,850 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:29:12,889 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:39:12,928 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:49:12,967 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 17:59:13,006 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:09:13,045 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:19:13,084 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:29:13,123 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:39:13,162 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:49:13,201 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 18:59:13,240 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:09:13,279 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:19:13,318 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:29:13,357 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:39:13,396 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:49:13,435 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 19:59:13,474 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:09:13,513 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:19:13,558 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:29:13,591 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:39:13,630 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:49:13,669 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 20:59:13,708 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:09:13,747 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:19:13,786 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:29:13,825 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:39:13,864 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:49:13,903 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 21:59:13,942 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:09:13,981 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:19:14,020 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:29:14,059 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:39:14,098 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:49:14,137 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 22:59:14,176 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:09:14,215 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:19:14,254 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:29:14,293 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:39:14,332 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:49:14,371 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-18 23:59:14,410 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:09:14,449 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:19:14,488 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:29:14,527 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:39:14,566 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:49:14,605 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 00:59:13,694 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:09:13,522 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:19:13,497 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:29:13,476 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:39:13,455 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:49:13,434 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 01:59:13,413 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:09:13,392 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:19:13,371 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:29:13,350 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:39:13,329 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:49:13,308 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 02:59:13,287 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:09:13,266 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:19:13,245 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:29:13,224 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:39:13,203 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:49:13,183 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 03:59:13,164 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:09:13,140 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:19:13,119 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:29:13,098 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:39:13,077 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:49:13,056 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 04:59:13,035 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:09:13,014 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:19:12,993 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:29:12,973 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:39:12,951 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:49:12,930 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 05:59:12,909 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:09:12,888 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:19:12,867 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:29:12,846 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:39:12,825 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:49:12,804 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 06:59:12,784 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:09:12,762 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:19:12,741 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:29:12,720 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:39:12,699 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:49:12,678 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 07:59:12,658 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:09:12,637 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:19:12,615 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:29:12,594 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:39:12,573 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:49:12,552 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 08:59:12,531 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:09:12,510 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:19:12,490 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:29:12,469 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:39:12,448 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:49:12,427 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 09:59:13,198 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:03:32,995 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:135.252.43.161 c-client-id:3
+2016-05-19 10:03:33,026 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2016-05-19 10:03:33,478 [Red5_Scheduler_Worker-15] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:bf6b0ac5-3594-4a19-aaef-ba47a7a2bad3
+2016-05-19 10:03:33,510 [Red5_Scheduler_Worker-17] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:135.252.43.161 x-sname:bf6b0ac5-3594-4a19-aaef-ba47a7a2bad3 x-name:hobbit_vp6
+2016-05-19 10:03:39,086 [NioProcessor-5] WARN  o.a.mina.core.service.IoProcessor - Create a new selector. Selected is 0, delta = 0
+2016-05-19 10:03:55,104 [Red5_Scheduler_Worker-15] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:pause c-ip:135.252.43.161 x-sname:bf6b0ac5-3594-4a19-aaef-ba47a7a2bad3
+2016-05-19 10:09:14,294 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:19:14,416 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:29:14,455 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:39:14,509 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:49:14,517 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 10:59:14,556 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:09:14,595 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:19:14,634 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:26:20,751 [NioProcessor-5] WARN  o.a.mina.core.service.IoProcessor - Create a new selector. Selected is 0, delta = 0
+2016-05-19 11:29:14,673 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:39:14,712 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:49:14,751 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 11:59:14,790 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 12:09:14,829 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 12:13:50,936 [NioProcessor-5] WARN  o.a.mina.core.service.IoProcessor - Create a new selector. Selected is 0, delta = 0
+2016-05-19 12:19:14,868 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2016-05-19 12:25:22,981 [NioProcessor-5] WARN  o.a.mina.core.service.IoProcessor - Create a new selector. Selected is 0, delta = 0
+2016-05-19 12:29:14,907 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start

@@ -1,0 +1,2 @@
+2016-05-18 15:48:32,089 [135.252.43.161-startStop-1] DEBUG ROOT - Starting up context oflaDemo
+2016-05-18 15:49:05,041 [pool-5-thread-1] INFO  org.red5.demos.oflaDemo.DemoService - oflaDemo DemoService created
